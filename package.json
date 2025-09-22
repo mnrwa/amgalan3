@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev-all": "concurrently \"cd backend && nodemon server\" \"cd frontend && npm run dev\""
+  }
+}
