@@ -8,6 +8,7 @@
     "next": "^15.5.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "sass": "^1.93.1",
     "typescript": "^5.9.2"
   },
   "name": "frontend",
@@ -20,8 +21,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
+    "start": "next start",
     "build": "next build"
-
   },
   "keywords": [],
   "author": "",
